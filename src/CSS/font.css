@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Title';
+    src: url('../../public/fonts/Glitten-Regular.otf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Body';
+    src: url('../../public/fonts/Mosk\ Extra-Light\ 200.ttf') format('truetype'),
+         url('../../public/fonts/Mosk\ Light\ 300.ttf') format('truetype'),
+         url('../../public/fonts/Mosk\ Normal\ 400.ttf') format('truetype');
+  }

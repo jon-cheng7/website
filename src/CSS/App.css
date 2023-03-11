@@ -1,0 +1,46 @@
+
+.App {
+  height: 100vh;
+}
+
+/* Styles for the overall page */
+body {
+  /* Set the background color for the page */
+  background-color: var(--primary-color);
+  margin: 0; /* Remove default margin to ensure full screen coverage */
+  padding: 0;
+  overflow-x: hidden;
+  /* Hide the scrollbar */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  color: white;
+  font-family: 'Title';
+  font-size: 1000%;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url('../../public/assets/background\ lines.svg');
+  background-position-y: -20px;
+  background-size: 105%;
+}
+
+.name {
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 20%;
+}
+
+
+

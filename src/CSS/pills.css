@@ -1,0 +1,30 @@
+.pill {
+    position: absolute;
+    width: 100px; /* Set the width of the pill */
+    height: 50px; /* Set the height of the pill */
+    border-radius: 25px; /* Set the border-radius to half of the height to create a pill shape */
+    margin-top: 50px; /* Add some space between the header and the pills */
+  }
+  .style1 {
+    background-color: var(--wbrown);
+  }
+  .style2 {
+    background-color: var(--wgreen);
+  }
+  .style3 {
+    background-color: #FFFFFF;
+  }
+  
+  .p1 {
+    transform: translate(1000px, -450px) scale(8) rotate(90deg);
+    width: 120px;
+  }
+  
+  .p2 {
+    transform: translate(1450px, 450px) scale(6) rotate(90deg);
+    width: 120px;
+  }
+  
+  .p3 {
+    transform: translate(10px, -250px) scale(4);
+  }
